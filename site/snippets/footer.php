@@ -1,14 +1,10 @@
-  <footer class="footer cf" role="contentinfo">
-
-    <div class="copyright">
-      <?php echo $site->copyright()->kirbytext() ?>
-    </div>
-
-    <div class="colophon">
-      <a href="http://getkirby.com/made-with-kirby-and-love">Made with Kirby and <b>♥</b></a>
-    </div>
-
+  <footer>
+    <p>
+      Made by <a href="http://anthony-dandrea.com/" target="_blank">Anthony D'Andrea</a> with <a href="http://getkirby.com/" target="_blank">Kirby</a>.
+    </p>
   </footer>
+  <script type="text/javascript" src="//code.jquery.com/jquery-2.1.3.min.js"></script>
+  <?php echo js('assets/js/script.js') ?>
 
 </body>
 </html>
