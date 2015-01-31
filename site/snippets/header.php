@@ -15,6 +15,8 @@
   <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
   <?php echo css('assets/css/site.css') ?>
 
+  <!-- Made by Anthony D'Andrea - http://anthony-dandrea.com/ -->
+
 </head>
 <body>
 
