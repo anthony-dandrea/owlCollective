@@ -1,7 +1,34 @@
+// =============================================
 // Color Variables
+// =============================================
 $blue: #00A4EB;
 $white: #FFF;
 $black: #201D1E;
 
+// =============================================
 // Font Variables
+// =============================================
 $open-sans: "Open Sans", sans-serif;
+
+// =============================================
+// Other Variables
+// =============================================
+$border-size: 3px;
+
+// =============================================
+// Breakpoint variables
+// =============================================
+$palm-small  : 25em;  // 400px
+$palm-medium : 30em;  // 480px
+$palm-large  : 35em;  // 560px
+
+$lap-small   : 40em;  // 640px
+$lap-medium  : 48em;  // 768px
+$lap-large   : 60em;  // 960px
+
+$desk-small  : 65em;  // 1040px
+$desk-medium : 80em;  // 1280px
+$desk-large  : 90em;  // 1440px
+
+$breakpoint-no-queries: false;
+$breakpoint-no-query-fallbacks: true;

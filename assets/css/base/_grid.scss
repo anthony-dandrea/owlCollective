@@ -1,0 +1,174 @@
+// =============================================
+// Susy Mobile First Grid Settings
+// =============================================
+
+// IE Support
+$legacy-support-for-ie              : true;
+$legacy-support-for-ie7             : $legacy-support-for-ie;
+$legacy-support-for-ie8             : $legacy-support-for-ie;
+$experimental-support-for-microsoft : $legacy-support-for-ie;
+
+$breakpoint-media-output: true;
+
+// ======================================
+// Initiates a grid container row using
+// the susy container mixin
+// ======================================
+.g-row {
+  @extend %col-gutters;
+  @include container($desk-small);
+  @include breakpoint($desk-small, $no-query: '.lt-ie9') {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+.g-full {
+  @include span(12 of 12);
+}
+
+.g-col-11 {
+  @include span(11 of 12);
+}
+
+.g-col-10 {
+  @include span(10 of 12);
+}
+
+.g-col-9 {
+  @include span(9 of 12);
+}
+
+.g-col-8 {
+  @include span(8 of 12);
+}
+
+.g-col-7 {
+  @include span(7 of 12);
+}
+
+.g-col-6 {
+  @include span(6 of 12);
+}
+
+.g-col-5 {
+  @include span(5 of 12);
+}
+
+.g-col-4 {
+  @include span(4 of 12);
+}
+
+.g-col-3 {
+  @include span(3 of 12);
+}
+
+.g-col-2 {
+  @include span(2 of 12);
+}
+
+.g-col-1 {
+  @include span(1 of 12);
+}
+
+.g-col-offset-1 {
+  @extend %mobile-grid;
+  @include breakpoint($lap-medium, $no-query: '.lt-ie9') {
+    @include span(1 of 12);
+  }
+}
+
+.g-col-offset-2 {
+  @extend %mobile-grid;
+  @include breakpoint($lap-medium, $no-query: '.lt-ie9') {
+    @include span(2 of 12);
+  }
+}
+
+.g-col-offset-3 {
+  @extend %mobile-grid;
+  @include breakpoint($lap-medium, $no-query: '.lt-ie9') {
+    @include span(3 of 12);
+  }
+}
+
+.g-col-offset-4 {
+  @extend %mobile-grid;
+  @include breakpoint($lap-medium, $no-query: '.lt-ie9') {
+    @include span(4 of 12);
+  }
+}
+
+.g-col-offset-5 {
+  @extend %mobile-grid;
+  @include breakpoint($lap-medium, $no-query: '.lt-ie9') {
+    @include span(5 of 12);
+  }
+}
+
+
+.g-col-offset-6 {
+  @extend %mobile-grid;
+  @include breakpoint($lap-medium, $no-query: '.lt-ie9') {
+    @include span(6 of 12);
+  }
+}
+
+.g-col-offset-7 {
+  @extend %mobile-grid;
+  @include breakpoint($lap-medium, $no-query: '.lt-ie9') {
+    @include span(7 of 12);
+  }
+}
+
+.g-col-offset-8 {
+  @extend %mobile-grid;
+  @include breakpoint($lap-medium, $no-query: '.lt-ie9') {
+    @include span(8 of 12);
+  }
+}
+
+.g-col-offset-9 {
+  @extend %mobile-grid;
+  @include breakpoint($lap-medium, $no-query: '.lt-ie9') {
+    @include span(9 of 12);
+  }
+}
+
+.g-col-offset-10 {
+  @extend %mobile-grid;
+  @include breakpoint($lap-medium, $no-query: '.lt-ie9') {
+    @include span(10 of 12);
+  }
+}
+
+.g-col-offset-11 {
+  @extend %mobile-grid;
+  @include breakpoint($lap-medium, $no-query: '.lt-ie9') {
+    @include span(11 of 12);
+  }
+}
+
+.omega {
+  @include omega;
+}
+
+// // ======================================
+// // Clears the last column in a row
+// // ======================================
+// omega class was getting overriden on IE8, this fixes it
+.omega,
+.lt-ie9 div[class^="g-"].omega  {
+  @include omega;
+}
+
+.g-row.no-pad {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+// ======================================
+// If you don't want to use Susy, just
+// delete everything above and write your
+// own grid system
+// ======================================

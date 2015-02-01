@@ -1,3 +1,39 @@
 body {
   background-color: $blue;
 }
+
+main {
+  width: 75%;
+  // display: inline-block;
+  float: right;
+  padding: 1em;
+}
+
+.container {
+  max-width: 960px;
+  display: block;
+  margin: auto;
+  padding: 0;
+}
+
+*,
+*:after,
+*:before {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  vertical-align: top;
+}
+
+.hidden {
+  display: none;
+}
+
+.line {
+  width: 90%;
+  background-color: $white;
+  height: $border-size;
+  margin: 1em auto;
+  display: block;
+}
+
