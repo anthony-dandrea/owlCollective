@@ -8,13 +8,17 @@
 // =======================================
 // Base Imports
 // =======================================
-@import 'variables';
-@import 'typography';
+@import 'base/variables';
+@import 'base/typography';
 
 // =======================================
 // Layout Imports
 // =======================================
-@import 'nav';
-@import 'header';
-@import 'footer';
-@import 'layout';
+@import 'layout/navigation';
+@import 'layout/header';
+@import 'layout/footer';
+@import 'layout/layout';
+
+// =======================================
+// Modules Imports
+// =======================================
