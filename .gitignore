@@ -4,6 +4,7 @@
 /thumbs/*
 /site/config
 .sass-cache
+node_modules/
 assets/css/site.css.map
 assets/css/site.css
 *.bundle
