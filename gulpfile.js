@@ -1,13 +1,6 @@
 var gulp = require('gulp'),
 minifyCSS = require('gulp-minify-css'),
-connect = require('gulp-connect-php'),
-browserSync = require('browser-sync'),
 plugins  = require('gulp-load-plugins')();
-
-// run php server
-gulp.task('server', function() {
-    connect.server();
-});
 
 // concatenate and uglify scripts
 gulp.task('scripts', function() {
@@ -43,4 +36,4 @@ gulp.task('watch', function(){
 });
 
 // default task: handle assets, start server, watch & reload
-gulp.task('default', ['server', 'scripts', 'styles', 'watch']);
+gulp.task('default', ['scripts', 'styles', 'watch']);
