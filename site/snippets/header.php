@@ -13,7 +13,7 @@
   <link href="//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css" rel="stylesheet" type="text/css">
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,800,700' rel='stylesheet' type='text/css'>
   <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-  <?php echo css('assets/css/site.css') ?>
+  <?php echo css('assets/css/site.min.css') ?>
 
   <!-- Made by Anthony D'Andrea - http://anthony-dandrea.com/ -->
 
