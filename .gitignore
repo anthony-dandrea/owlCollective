@@ -3,6 +3,7 @@
 /assets/avatars
 /thumbs/*
 /site/config
+
 .sass-cache
 node_modules/
 assets/css/site.css.map
