@@ -3,8 +3,8 @@
 /assets/avatars
 /thumbs/*
 /site/config
-.ruby-version
 .sass-cache
 assets/css/site.css.map
+assets/css/site.css
 *.bundle
 Gemfile.lock
